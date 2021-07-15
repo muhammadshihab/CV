@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    margin-top: 20px;
+    background: rgb(204,204,204); 
+    font-family: 'Slabo 27px', serif;
+}
+
+::selection{
+    color:chartreuse;
+    background-color: black;
+}
+
+page {
+    background: rgba(59, 202, 212, 0.521);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+
+page[size="A4"] {  
+    width: 24cm;
+    height: 29.7cm; 
+    padding: 20px;
+  }
+ 
+.salam{
+    text-align: center;
+}
+ 
+/*=======================================================
+                   Header Section Start
+=======================================================*/
+
+.profile_image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid rgb(214, 201, 231);
+    border-radius: 50%;
+    float:left;
+}
+
+.header_bio{
+    float:left;
+    padding:30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#160ca1;
+}
+
+.header_contact{
+    float:right;
+    padding:30px;
+}
+
+.header_contact a{
+    text-decoration: none;
+    color: rgba(219, 0, 0, 0.603);
+    font-weight:bold;
+    cursor: cell;
+}
+
+.header_contact a:hover{
+    text-decoration: underline;
+    color:rgb(116, 1, 145)
+}
+
+.clear_div{
+    clear:both;
+}
+
+hr{
+    border:3px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin:20px auto;
+}
+
+/*=======================================================
+                 Personal Section Start
+=======================================================*/
+ 
+.content{
+    margin-bottom: 30px;
+}
+
+.left_div{
+    width: 30%;
+    float: left;
+}
+
+.right_div{
+    width: 70%;
+    float: right;
+}
+
+.education_template_left{
+    float: left;
+    width: 45%;
+}
+
+.education_template_right{
+    float: right;
+    width: 45%;
+}
+
+.common_hr{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+ 
+/*=======================================================
+                 Skills Section Start
+=======================================================*/
+
+.skill_list ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.skill_list li::before{
+    content:'\2713';
+    font-family:'Font Awesome 5 Free';
+    font-weight:bold;
+    display: inline-block;
+    margin: 0px 8px 4px;
+}
+
+/*=======================================================
+              Achievement Section Start
+=======================================================*/
+
+.achieve{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(219, 0, 0, 0.603);
+    font-weight:bold;
+    cursor: cell;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color:rgb(116, 1, 145)
+}
+
+/*=======================================================
+                Footer Section Start
+=======================================================*/
+
+.footer{
+    background-color: rgba(14, 113, 158, 0.596);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight:bold;
+    cursor: cell;
+}
+ 
+.footer a:hover{
+    color:rgb(116, 1, 145);
+}
+
+.footer .footer_location::before{
+    content: '\f3c5';
+    font-family:'Font Awesome 5 Free';
+    font-weight:bold;
+    display: inline-block;
+    margin: 0px 8px 4px;
+}
+
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
+
+.footer p::before{
+    content:'\f3c5';
+    font-family:'Font Awesome 5 Free';
+    font-weight:bold;
+    display: inline-block;
+    margin: 0px 8px 4px;
+}
