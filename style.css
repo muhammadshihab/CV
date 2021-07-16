@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     color: rgba(219, 0, 0, 0.603);
     font-weight:bold;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .header_contact a:hover{
@@ -146,7 +146,7 @@ hr{
     text-decoration: none;
     color: rgba(219, 0, 0, 0.603);
     font-weight:bold;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .link:hover{
@@ -170,7 +170,7 @@ hr{
     text-decoration: none;
     margin: 20px;
     font-weight:bold;
-    cursor: cell;
+    cursor: pointer;
 }
  
 .footer a:hover{
